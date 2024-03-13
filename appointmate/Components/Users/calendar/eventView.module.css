@@ -1,0 +1,39 @@
+.body{
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    display: flex;
+}
+
+.image img{
+    height: fit-content;
+    width: 324px;
+}
+
+.title{
+    display: flex;
+    justify-content:space-between;
+    width: 720px;
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.title h2{
+    color: #333;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.title p{
+    color: #333;
+    font-size: 14px;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.event{
+    margin-left: 2rem;
+}

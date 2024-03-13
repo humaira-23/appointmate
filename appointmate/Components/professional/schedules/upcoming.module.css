@@ -1,0 +1,122 @@
+.body{
+    margin-left: 1rem;
+    height: 31.25rem;
+}
+
+.title{
+    width: 1055px;
+    border-bottom: solid 2px #B3B3B3;
+    margin: 1rem .5rem;
+    padding: .5rem 0;
+    margin-top: 0;
+}
+
+.title h2{
+    margin: 0 1rem;
+    color: #000;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+/* .content{
+    width: 98%;
+    height: 16rem;
+    overflow-y: auto;
+    scrollbar-width: thin;         
+    scrollbar-color: #4E7D96 #ebebeb;
+    scrollbar-arrow-color: #4E7D96;
+} */
+  
+
+.grid{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1rem;
+}
+
+.card{
+    padding: 10px;
+    outline: solid 1px #ccc;
+    margin-top: .5rem;
+    margin-left: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+}
+
+.profile{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.profile h3{
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    align-items: center;
+    width: fit-content;
+    height: min-content;
+}
+
+.profile img{
+    border-radius: 16px;
+}
+
+.heading p{
+    color: #6f8879;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.link{
+    color: #4e7d96;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.dateDetails p, .time p{
+    color: #666;
+    font-size: 14px;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    font-weight: normal;
+}
+
+.time, .dateDetails{
+    display: flex;
+    margin-bottom: .2rem;
+}
+
+.time svg, .dateDetails svg{
+    margin-top: .25rem ;
+    margin-right: .5rem;
+    color: #B3B3B3;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "image":"https://www.svgrepo.com/show/92186/woman.svg",
+        "pname":"JOE MATHEW",
+        "title":"I am extremely satisfied with Appointmate!",
+        "desc":"The booking software makes it super easy for me to use and book appointments online with me. I especially love their customer service, they always respond in a timely manner at all hours!",
+        "color": "#E6E7E1"
+    },
+    {
+        "image":"https://www.svgrepo.com/show/34292/girl.svg",
+        "pname":"ANNA BAKER",
+        "title":"I would rate this as a plus",
+        "desc":"I love that I finally found a place where I can manage my time and task with comfort and ease. Very easy to get appointments and no time to wait.",
+        "color": "#D4DCE6"
+    },
+    {
+        "image":"https://www.svgrepo.com/show/104219/woman.svg",
+        "pname":"HELLY VED",
+        "title":"Great software to schedule your appointments with ease.",
+        "desc":"Appointo’s online appointment booking website is easy to use and also available for free! I Liked how Appointo easily automated my daily tasks by connecting to professionals I completely recommend Appointo.",
+        "color": "#8FCAB8"
+    },
+    {
+        "image":"https://www.svgrepo.com/show/28663/woman.svg",
+        "pname":"Serena Johns",
+        "title":"I would rate this as a plus",
+        "desc":"I love that I finally found a place where I can manage my time and task with comfort and ease. Very easy to get appointments and no time to wait.",
+        "color": "#DAD37E"
+    }
+]

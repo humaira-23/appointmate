@@ -1,0 +1,73 @@
+.swiper{
+    margin-left: 2.8rem;
+}
+
+
+.slides{
+    width: min-content !important;
+    height: fit-content !important;
+    padding: 10px;
+    outline: solid 1px #ccc;
+    background-color: #fcfcfd;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.heading h3{
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    align-items: center;
+    width: fit-content;
+    height: min-content;
+}
+
+.heading p{
+    color: #6f8879;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.link{
+    color: #4e7d96;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    cursor: pointer;
+}
+
+.dateDetails p, .time p{
+    color: #666;
+    font-size: 16px;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    font-weight: normal;
+}
+
+.time, .dateDetails{
+    display: flex;
+}
+
+.time svg, .dateDetails svg{
+    margin-top: .25rem ;
+    margin-right: .5rem;
+    color: #B3B3B3;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+

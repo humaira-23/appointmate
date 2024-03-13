@@ -1,0 +1,86 @@
+.body{
+    display: flex;
+    gap: .2rem;
+}
+
+.main{
+    width: 310px;
+    padding: 8px 10px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 4px;
+    margin-left: .7rem;
+}
+
+.lines{
+    width: 1px;
+    border-left: solid 1px #4e7d9685;
+    margin-left: .5rem;
+}
+
+.identity{
+    display: flex;
+    gap: 10px;
+    margin: .5rem;
+}
+
+.identity img{
+    height: 3rem;
+    width: 3rem;
+
+}
+
+.identity h2{
+    color: #000;
+    font-size: 18px;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.identity p{
+    color: #737171;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+
+.line{
+    width: 18rem;
+    height: 1px;
+    border-bottom: solid 1px #4e7d9685;
+    margin: .5rem;
+}
+
+.contact{
+    margin-top: .5rem;
+    margin-left: .7rem;
+}
+
+.contact h3{
+    color: #4e7d96;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-top: .2rem;
+}
+
+.contact p{
+    color: #ff844b;
+    font-size: 10px;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}

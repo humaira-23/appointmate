@@ -1,0 +1,23 @@
+.body{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.body h2{
+    color: hsl(201, 32%, 45%);
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+ 
+.body p{
+    color: #666;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    font-weight: normal;
+}

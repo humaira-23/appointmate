@@ -1,0 +1,168 @@
+.main{
+    width: 93%;
+    padding: 8px 10px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 4px;
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+}
+
+.content{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #B3B3B3;
+}
+
+.identity{
+    display: flex;
+    gap: 20px;
+    margin: .5rem;
+    margin-top: 0;
+    align-items: center;
+}
+
+.identity img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.identity h2{
+    margin-top: 1rem;
+    color: #000;
+    font-size: 20px;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.identity h4{
+    color: #0FA026;
+    font-size: 14px;
+    font-weight: 350;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.identity h5{
+    width: 350px;
+    color: #4E7D96;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.identity p{
+    width: 350px;
+    color: #0FA026;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.identity span{
+    width: 350px;
+    color: #0FA026;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8rem;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    margin-bottom: .5rem;
+}
+
+.social svg{
+    color: #B3B3B3;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+    margin-top: -.5rem;
+}
+
+.btn button{
+    padding: .1rem 1rem;
+    height: 2rem;
+    font-size: 14px;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.callBtn{
+    border: solid 1px #4e7d96;
+    background-color: white;
+    color: #4E7D96;
+}
+
+.callBtn:hover{
+    border: solid 1px rgb(98, 126, 98);
+    color: #fff;
+    background-color: rgb(66, 159, 66);
+}
+
+.bookBtn{
+    color: #fff;
+    background-color: #4E7D96;
+}
+
+.bookBtn:hover{
+    color: #fff;
+    background-color: #014468;
+}
+
+.profInfo{
+    margin: .5rem 1rem;
+}
+
+.profInfo h2{
+    margin-top: 1rem;
+    color: #737171;
+    font-size: 20px;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.details{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    margin: .5rem 0;
+}
+
+.details h3, .details p,.abt p, .abt h3{
+    color: #4E7D96;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    text-align:justify;
+}
+
+.abt p{
+    margin: .5rem 1rem;
+    margin-left: .2rem;
+}

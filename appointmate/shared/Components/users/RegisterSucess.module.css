@@ -1,0 +1,129 @@
+/* styles/globals.css */
+
+.details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.overlay_content {
+  width: 600px;
+  background-color: #FCFCFD;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 24px;
+  border: solid 1px #FCFCFD;
+}
+
+.close_btn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.close_btn svg {
+  cursor: pointer;
+  color: #4e7d96;
+}
+
+.successMessage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.successMessage svg{
+  color: rgb(74, 173, 74);;
+}
+
+.successMessage h2 {
+  color: #2F2E41;
+  font-size: 20px;
+  font-family: Work Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.successMessage p {
+  color: #4e7d96;
+  font-size: 14px;
+  font-family: Work Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor:text;
+  margin-bottom: 1rem;
+}
+
+.successMessage p:hover{
+  color: #4e7d96;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 80px;
+}
+
+.doneBtn p{
+  padding: 4px 20px;
+  border: solid 1px #fff;
+  background-color: #4e7d96;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-family: Work Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.doneBtn p:hover{
+  background-color: rgb(74, 173, 74);
+  color: #fff;
+}
+
+.updateBtn p{
+  padding: 4px 20px;
+  border: solid 1px #4e7d96;
+  background-color: #fff;
+  cursor: pointer;
+  color: #4e7d96;
+  font-size: 14px;
+  font-family: Work Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.updateBtn p:hover{
+  color: #fff;
+  background-color: #FF844B;
+  border: solid 1px #FF844B;
+}

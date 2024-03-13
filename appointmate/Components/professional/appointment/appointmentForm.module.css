@@ -1,0 +1,178 @@
+.container{
+    width: 92%;
+    border: solid 1px #B3B3B3;
+    margin-left: .6rem;
+    padding: .5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 9px;
+    margin-bottom: .5rem;
+}
+
+.label{
+    display: flex;
+    gap: 18rem;
+    margin: .5rem 0;
+}
+
+.labels{
+    display: flex;
+    gap: 20.5rem;
+    margin: .5rem 0;
+}
+
+.label label, .labels label, .intervals label,.slot p{
+    color: #2F2E41;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+}
+
+.input{
+    display: flex;
+    gap: 3rem;
+}
+
+.intervals{
+    display: flex-start;
+    margin: 1.5rem 0;
+}
+
+.intervals select{
+    margin-left: 1rem;
+    width: 240px;
+    padding: 5.5px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    padding-left: .5rem;
+}
+
+.slot div{
+    display: flex;
+}
+
+.input input{
+    width: 440px;
+    padding: 2px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    padding-left: .5rem;
+}
+
+.inputs{
+    display: flex;
+    gap: 2rem;
+}
+
+.inputs input{
+    width: 200px;
+    padding: 2px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    padding-left: .5rem;
+}
+
+.inputs select{
+    width: 440px;
+    padding: 5.5px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    padding-left: .5rem;
+}
+
+.radioInput{
+    display: flex;
+    border: solid 1px grey;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    padding: 5px 0;
+    padding-left: 4.5rem;
+}
+
+.radioInput div{
+    width: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+}
+
+.radioInput input{
+    margin-right: .5rem;
+    height: 18px;
+    width: 18px;
+    vertical-align:text-top;
+}
+
+.label span{ 
+    color: #2f2e41;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+.input textarea{
+    width: 96%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    padding-left: .5rem;
+    justify-content:start;
+    resize: none;
+    margin-bottom: .5rem;
+}
+
+
+
+.btn{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0;
+    border: solid 1px #b3b3b3;
+    background-color: #4e7d96;
+    margin: .5rem 19rem;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+}
+
+.slots {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.slots div {
+    margin: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border: 0.5px solid #4e7d96;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.slotsActive {
+    background-color: #FF844B;
+}

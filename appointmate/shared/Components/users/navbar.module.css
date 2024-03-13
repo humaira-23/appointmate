@@ -1,0 +1,86 @@
+.main{
+    padding: 1rem;
+    height:37.55rem;
+    width: fit-content;
+}
+
+.logo{
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.logo img{
+    height: 5rem;
+    width: 9.5rem;
+}
+
+.navbar{
+    /* margin-left: 1rem; */
+    margin-bottom: 2rem;
+}
+
+
+.link{
+    width: 11.5rem;
+    display: flex;
+    margin: 1rem 0;
+    color: #b3b3b3;
+}
+
+.link div {
+    margin: .5rem 0 .5rem 1rem;
+    height: 18px;
+    width: 18px;    
+}
+
+.link p{
+    margin: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+
+.link:hover{
+    width: 11.5rem;
+    display: flex;  
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* .link div:hover{
+    margin: .5rem 0 .5rem 1rem;
+} */
+
+
+.linkactive{
+    width: 11.5rem;
+    display: flex;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.linkactive div {
+    margin: .5rem 0 .5rem 1rem;
+    height: 18px;
+    width: 18px; 
+}
+
+.linkactive p{
+    margin: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}

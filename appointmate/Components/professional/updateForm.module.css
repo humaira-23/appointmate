@@ -1,0 +1,164 @@
+.body {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1.6rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.heading{
+    /* gap: 5px; */
+    margin-bottom: .5rem;
+}
+
+.heading h2{
+    color: #000;
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.15em;
+    margin-bottom: 0;
+}
+
+.heading p{
+    color: #979191;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    margin-top: 0;
+}
+
+.column label{
+    color: #2f2e41;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+.column div{
+    margin-bottom: .5rem;
+}
+
+.column input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    padding-left: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.column input::placeholder{
+    color: #737171;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: center;
+}
+
+.time select::placeholder{
+    color: #737171;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+}
+
+/* .licensce {
+    margin-top: -1rem;
+} */
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+}
+
+.column{
+    margin-top: .28rem;
+    width: 43%;
+}
+
+.columns{
+    margin-top: .25rem;
+}
+
+.time{
+    display: flex;
+    gap: 1rem;
+}
+
+.time input{
+    width: 12.5rem;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    padding-left: .5rem;
+}
+
+.time select{
+    width: 16rem;
+    padding: 11px 3rem;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    margin-top: 0rem;
+}
+
+.btn{
+    display: flex;
+    margin-top: 2.05rem;
+    margin-left: 7rem;
+    gap: 4rem;
+}
+
+.resetBtn{
+    width: 40%;
+    height: min-content;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border: solid 1px #4E7D96;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.submitBtn{
+    width: 40%;
+    height: min-content;
+    padding: 10px 0;
+    border: solid 1px #b3b3b3;
+    background-color: #4e7d96;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Work Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    cursor: pointer;
+}
